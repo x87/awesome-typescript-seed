@@ -1,0 +1,34 @@
+{
+	"name": "typescript2-webpack2-seed",
+	"version": "1.0.0",
+	"description": "A seed project with Webpack 2, TypeScript 2, Karma, Jasmine",
+	"main": "src/index.ts",
+	"scripts": {
+		"build": "webpack",
+		"test": "karma start"
+	},
+	"keywords": [
+		"typescript",
+		"webpack",
+		"karma",
+		"jasmine"
+	],
+	"author": "Seemann",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/x87/typescript2-webpack2-seed/issues"
+	},
+	"dependencies": {
+		"@types/jasmine": "2.5.47",
+		"jasmine-core": "2.6.1",
+		"karma": "1.7.0",
+		"karma-phantomjs-launcher": "1.0.4",
+		"karma-sourcemap-loader": "0.3.7",
+		"karma-webpack": "2.0.3",
+		"karma-jasmine": "1.1.0",
+		"phantomjs-prebuilt": "2.1.14",
+		"awesome-typescript-loader": "3.1.3",
+		"typescript": "2.3.2",
+		"webpack": "2.5.1"
+	}
+}
