@@ -23,7 +23,17 @@ module.exports = {
             {
                 test: /\.ts$/,
                 loader: 'awesome-typescript-loader'
-            }
+            },
+			{
+				test: /\.ts$/,
+				loader: 'tslint-loader',
+				enforce: 'pre',
+				exclude: /node_modules/,
+				options: {
+					configFile: 'tslint.json',
+                    emitErrors: true
+				}
+			}
         ]
     },
     plugins: [

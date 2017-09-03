@@ -1,34 +1,36 @@
 {
-	"name": "typescript2-webpack2-seed",
-	"version": "1.1.0",
-	"description": "A seed project with Webpack 3, TypeScript 2.5, Karma, Jasmine",
-	"main": "src/index.ts",
-	"scripts": {
-		"build": "webpack",
-		"test": "karma start"
-	},
-	"keywords": [
-		"typescript",
-		"webpack",
-		"karma",
-		"jasmine"
-	],
-	"author": "Seemann",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/x87/typescript2-webpack2-seed/issues"
-	},
-	"dependencies": {
-		"@types/jasmine": "2.5.54",
-		"jasmine-core": "2.8.0",
-		"karma": "1.7.1",
-		"karma-phantomjs-launcher": "1.0.4",
-		"karma-sourcemap-loader": "0.3.7",
-		"karma-webpack": "2.0.4",
-		"karma-jasmine": "1.1.0",
-		"phantomjs-prebuilt": "2.1.15",
-		"awesome-typescript-loader": "3.2.3",
-		"typescript": "2.5.2",
-		"webpack": "3.5.5"
-	}
+  "name": "typescript2-webpack2-seed",
+  "version": "1.1.0",
+  "description": "A seed project with Webpack 3, TypeScript 2.5, Karma, Jasmine",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "webpack",
+    "test": "karma start"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "karma",
+    "jasmine"
+  ],
+  "author": "Seemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x87/typescript2-webpack2-seed/issues"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.5.54",
+    "jasmine-core": "2.8.0",
+    "karma": "1.7.1",
+    "karma-phantomjs-launcher": "1.0.4",
+    "karma-sourcemap-loader": "0.3.7",
+    "karma-webpack": "2.0.4",
+    "karma-jasmine": "1.1.0",
+    "phantomjs-prebuilt": "2.1.15",
+    "awesome-typescript-loader": "3.2.3",
+    "tslint": "5.7.0",
+    "tslint-loader": "3.5.3",
+    "typescript": "2.5.2",
+    "webpack": "3.5.5"
+  }
 }
