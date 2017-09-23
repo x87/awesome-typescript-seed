@@ -24,7 +24,8 @@ module.exports = function (config) {
         preprocessors: {
             'webpack.test.js': ['webpack', 'sourcemap']
         },
-        reporters: ['progress'],
+        reporters: ['progress', 'coverage'],
+
         port: 9876,
         colors: true,
         singleRun: false

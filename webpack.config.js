@@ -2,7 +2,7 @@ const CheckerPlugin = require('awesome-typescript-loader').CheckerPlugin;
 const path = require('path');
 
 module.exports = {
-    entry: "./src",
+    entry: "./src/index.ts",
     output: {
         path: path.resolve(__dirname, "dist"),
         filename: "bundle.js"
@@ -33,6 +33,12 @@ module.exports = {
 					configFile: 'tslint.json',
                     emitErrors: true
 				}
+			},
+			{
+				test: /\.ts$/,
+				loader: 'istanbul-instrumenter-loader',
+				enforce: 'post',
+				exclude: /node_modules|\.spec.ts$/
 			}
         ]
     },
