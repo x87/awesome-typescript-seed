@@ -1,11 +1,4 @@
-const webpackConfig = require('./webpack.config.js');
-webpackConfig.devtool = 'inline-source-map';
-
-webpackConfig.entry = function () {
-    return {};
-};
-
-webpackConfig.output = {};
+const webpackConfig = require('./webpack-test.config');
 
 module.exports = function (config) {
     config.set({
@@ -25,7 +18,6 @@ module.exports = function (config) {
             'webpack.test.js': ['webpack', 'sourcemap']
         },
         reporters: ['progress', 'coverage'],
-
         port: 9876,
         colors: true,
         singleRun: false

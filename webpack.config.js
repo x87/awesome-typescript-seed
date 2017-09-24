@@ -33,12 +33,6 @@ module.exports = {
 					configFile: 'tslint.json',
                     emitErrors: true
 				}
-			},
-			{
-				test: /\.ts$/,
-				loader: 'istanbul-instrumenter-loader',
-				enforce: 'post',
-				exclude: /node_modules|\.spec.ts$/
 			}
         ]
     },

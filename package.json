@@ -5,6 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "webpack",
+    "dev": "webpack-dev-server --hot --inline --progress --port 8080",
     "test": "karma start"
   },
   "keywords": [
@@ -33,6 +34,8 @@
     "tslint": "5.7.0",
     "tslint-loader": "3.5.3",
     "typescript": "2.5.2",
-    "webpack": "3.6.0"
+    "webpack": "3.6.0",
+    "webpack-dev-server": "2.8.2",
+    "webpack-merge": "4.1.0"
   }
 }
