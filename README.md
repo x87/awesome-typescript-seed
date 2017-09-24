@@ -2,7 +2,7 @@
 A seed project with Webpack 3, TypeScript 2.5, Karma, Jasmine
 
 ## Install
-`git clone https://github.com/x87/typescript2-webpack2-seed`
+`git clone https://github.com/x87/awesome-typescript-seed`
 
 `npm install`
 
