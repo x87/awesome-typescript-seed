@@ -1,5 +1,5 @@
 # awesome-typescript-seed
-A seed project with Webpack 3, TypeScript 2.5, Karma, Jasmine
+A seed project with Webpack 4, TypeScript 2.8, Karma, Jasmine
 
 ## Install
 `git clone https://github.com/x87/awesome-typescript-seed`
