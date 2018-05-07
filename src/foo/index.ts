@@ -1,6 +1,6 @@
 export default class Foo {
 
-	bar() {
-		return true;
-	}
+    public bar(): boolean {
+        return true;
+    }
 }

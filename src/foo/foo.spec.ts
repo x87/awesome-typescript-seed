@@ -1,8 +1,8 @@
-import Foo from './';
+import Foo from "./";
 
-describe("Foo class", function() {
-	it("has method bar", function() {
-		const foo = new Foo();
-		expect(foo.bar()).toBe(true);
-	});
+describe("Foo class", () => {
+    it("has method bar", () => {
+        const foo = new Foo();
+        expect(foo.bar()).toBe(true);
+    });
 });

@@ -4,8 +4,8 @@
   "description": "The bare minimum to run a project with Webpack 3, TypeScript 2, Karma, Jasmine",
   "main": "src/index.ts",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack-dev-server --hot --inline --progress --port 8080",
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --hot --inline --progress --port 8080 --mode development",
     "test": "karma start"
   },
   "keywords": [
@@ -23,22 +23,23 @@
     "url": "https://github.com/x87/awesome-typescript-seed/issues"
   },
   "devDependencies": {
-    "@types/jasmine": "2.6.0",
-    "awesome-typescript-loader": "3.2.3",
-    "istanbul-instrumenter-loader": "3.0.0",
-    "jasmine-core": "2.8.0",
-    "karma": "1.7.1",
-    "karma-coverage": "1.1.1",
-    "karma-jasmine": "1.1.0",
+    "@types/jasmine": "2.8.7",
+    "awesome-typescript-loader": "5.0.0",
+    "istanbul-instrumenter-loader": "3.0.1",
+    "jasmine-core": "3.1.0",
+    "karma": "2.0.2",
+    "karma-coverage": "1.1.2",
+    "karma-jasmine": "1.1.2",
     "karma-phantomjs-launcher": "1.0.4",
     "karma-sourcemap-loader": "0.3.7",
-    "karma-webpack": "2.0.4",
-    "phantomjs-prebuilt": "2.1.15",
-    "tslint": "5.7.0",
-    "tslint-loader": "3.5.3",
-    "typescript": "2.5.2",
-    "webpack": "3.6.0",
-    "webpack-dev-server": "2.8.2",
-    "webpack-merge": "4.1.0"
+    "karma-webpack": "3.0.0",
+    "phantomjs-prebuilt": "2.1.16",
+    "tslint": "5.10.0",
+    "tslint-loader": "3.6.0",
+    "typescript": "2.8.3",
+    "webpack": "4.7.0",
+    "webpack-cli": "2.1.3",
+    "webpack-dev-server": "3.1.4",
+    "webpack-merge": "4.1.2"
   }
 }
