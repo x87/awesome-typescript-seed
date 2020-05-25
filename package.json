@@ -1,12 +1,13 @@
 {
   "name": "awesome-typescript-seed",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "The bare minimum to run a project with Webpack 4, TypeScript 3, Jest",
   "main": "src/index.ts",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --hot --inline --progress --port 8080 --mode development",
-    "test": "jest"
+    "test": "jest",
+    "lint": "tslint -c tslint.json src/**/*.ts"
   },
   "keywords": [
     "typescript",
@@ -22,15 +23,15 @@
     "url": "https://github.com/x87/awesome-typescript-seed/issues"
   },
   "devDependencies": {
-    "@types/jest": "24.0.15",
-    "awesome-typescript-loader": "5.2.1",
-    "jest": "24.8.0",
-    "ts-jest": "24.0.2",
-    "tslint": "5.18.0",
+    "@types/jest": "25.2.3",
+    "jest": "26.0.1",
+    "ts-jest": "26.0.0",
+    "ts-loader": "7.0.5",
+    "tslint": "6.1.2",
     "tslint-loader": "3.5.4",
-    "typescript": "3.5.2",
-    "webpack": "4.35.2",
-    "webpack-cli": "3.3.5",
-    "webpack-dev-server": "3.7.2"
+    "typescript": "3.9.3",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.11.0"
   }
 }

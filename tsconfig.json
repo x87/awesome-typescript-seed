@@ -13,9 +13,8 @@
     "pretty": true,
     "alwaysStrict": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "outDir": "dist/tsc"
   },
-  "include": [
-    "src"
-  ]
+  "exclude": ["node_modules"]
 }
